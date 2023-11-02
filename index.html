@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function areaOfCircle(radius) {
+            let result = Math.PI * radius * radius;
+            return result;
+
+        }
+
+        function perimeterOfRectangle(length, width) {
+            let result = 2 * (length + width);
+            return result;
+
+        }
+
+        function areaOfTriangle(base, height) {
+            let result = ((height * base) / 2);
+            return result;
+        }
+
+        function areaOfRectangle(length, width) {
+            let result = length * width;
+            return result;
+
+        }
+
+        function areaOfParallelogram(base, height) {
+            let result = (base * height);
+            return result;
+        }
+
+        function areaOfSquare(side) {
+            let result = side * side;
+            return result;
+
+        }
+
+        function areaOfSphere(radius) {
+            let result = 4 * Math.PI * radius * radius;
+            return result;
+
+        }
+
+        function evenNumbers() {
+            let i = 5;
+
+            for (let i = 0; i < 10; i++) {
+                let result = i
+                return result;
+            }
+        }
+
+        function isEven(num) {
+            return num % 2 === 0;
+        }
+
+        function evenNumbers(start, end) {
+            let evenNumbers = [];
+
+            for (let i = start; i <= end; i++) {
+                if (isEven(i)) {
+                    evenNumbers.push(i);
+                }
+            }
+
+            return evenNumbers;
+        }
+
+        function isOdd(num) {
+            return num % 2 !== 0;
+        }
+
+        function oddNumbers(start, end) {
+            let oddNumbers = [];
+
+            for (let i = start; i <= end; i++) {
+                if (isOdd(i)) {
+                    oddNumbers.push(i);
+                }
+            }
+            return oddNumbers
+
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
